@@ -1,0 +1,46 @@
+table {
+    width: 100%;
+    border: 1px solid black;
+    border-color: red;
+    background-color: #f2f2f2;
+    border-spacing: 5px;
+  }
+  
+  td {
+    background-color: #fff;
+    color: #000;
+    text-align: center;
+  }
+  
+  th {
+    width: 100px;
+    background-color: #ccc;
+  }
+  #texto_cep{
+    font-size: 20px;
+  }
+  input[type="text"] {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+    color: #555;
+  }
+
+  input[type="submit"], input[type="button"]  {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  input[type="submit"]:active, input[type="button"]:active {
+    background-color: #0056b3;
+    transform: translateY(2px);
+    box-shadow: none;
+  }
+  
+    
